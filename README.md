@@ -57,6 +57,7 @@ pm2 start app.js --name chatroom-server
 配置Nginx (参考项目中的nginx-config/chatroom.conf)
 
 项目结构
+```bash
 websocket-chatroom/
 ├── server/               # 服务器端代码
 │   ├── app.js           # 主服务器文件
@@ -67,6 +68,7 @@ websocket-chatroom/
 │   └── chat.js          # 客户端逻辑
 └── nginx-config/        # Nginx配置
     └── chatroom.conf    # 站点配置
+```
 访问方式
 确保服务器安全组已开放80端口
 
